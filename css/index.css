@@ -74,7 +74,7 @@ p {
 }
 
 .container {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 /* Nav Bar */
@@ -182,7 +182,7 @@ footer {
  /* Tablet Media Styles */
 @media (max-width: 800px) {
 	.container {
-		width: 600px;
+		max-width: 600px;
 		margin: 0 auto;
 	}
 	nav {
@@ -216,7 +216,7 @@ footer {
 /* Mobile Media Styles */
 @media (max-width: 500px) {
 	.container {
-		width: 300px;
+		max-width: 300px;
 		margin: 0 auto;
 	}
 	nav {
@@ -298,7 +298,7 @@ footer {
 
 /* Code for Great Idea - Services Page */
 .container2 {
-	width: 800px;
+	max-width: 800px;
 	margin: auto;
 }
 
