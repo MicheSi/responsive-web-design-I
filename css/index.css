@@ -248,13 +248,14 @@ footer {
 		display: flex;
 		justify-content: center;
 		text-align: center;
+		padding: 20px;
 		border-bottom: 1px solid black;
 	}
 	.logo {
 		width: 55%;
 	}
 	header {
-		height: 275px;
+		height: 45vh;
 	}
 	.business {
 		display: flex;
@@ -311,7 +312,7 @@ footer {
 /* Code for Great Idea - Services Page */
 .container2 {
 	max-width: 800px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .services-header-img {
@@ -333,7 +334,7 @@ footer {
 	  text-decoration: none;
 }
 
-.button:hover {
+.button2:hover {
 	background-color: steelblue;
 	color: silver;
 }
@@ -386,6 +387,9 @@ footer {
 }
  /* Services Tablet Styles */
  @media (max-width: 800px) {
+	 .services-nav a {
+		padding: 40px 28px 10px;
+	 }
 	 .services-header-img {
 		 max-width: 600px;
 		 height: auto;
@@ -423,6 +427,9 @@ footer {
  @media (max-width: 500px) {
 	 body {
 		 font-size: 12px;
+	 }
+	 .services-nav a {
+		padding: 20px;
 	 }
 	 .services-header-img {
 		 max-width: 300px;
